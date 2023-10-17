@@ -1,0 +1,147 @@
+/* start home */
+
+.home {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../imges/home\ background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.home .content h2 {
+  font-size: 60px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  color: white;
+  background-color: black;
+}
+
+.sidebar ul {
+  height: 46vh;
+  font-size: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebar i {
+  position: absolute;
+  top: 5%;
+  right: 9%;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar span {
+  position: absolute;
+  right: -45%;
+  bottom: -10%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sidebar ul li {
+  transition: color 0.3s;
+}
+.sidebar ul li:hover {
+  color: #601917;
+}
+/* end home */
+
+/* start duration */
+.duration {
+  margin-bottom: 50px !important;
+}
+.duration .comment {
+  width: 630px;
+  background-color: #e68285;
+}
+.commentContent {
+  background-color: #cccccc;
+}
+.comment h3 {
+  color: white;
+  cursor: pointer;
+}
+/* end duration */
+
+/* start details */
+
+.details {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../imges/detailsImge2.jpg);
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item {
+  width: 250px;
+  height: 140px;
+  font-size: 30px;
+  color: white;
+  border: solid white 1px;
+}
+/* end details */
+
+/* start footer */
+
+.footerIcons {
+  height: 150px;
+}
+.footerIcons .gmail {
+  color: #d72e33;
+}
+
+.footer > h2 {
+  font-weight: 700;
+  color: #444444;
+}
+
+
+.socialIcons i {
+  width: 40px;
+  height: 40px;
+  border: solid #777777 1px;
+  margin-right: 15px;
+  transition: background-color .4s;
+}
+
+.socialIcons i:hover{
+    background-color: #d62e33;
+    color: white;
+}
+
+.btn-danger{
+    background-color:#d62e33 !important ;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+.footer span{
+    color: #d62e33;
+    font-size: 20px;
+    margin-right: 5px;
+}
+/* end footer */
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
